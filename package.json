@@ -1,11 +1,22 @@
 {
   "name": "OrbBak-dark",
+  "publisher": "orbnu",
   "displayName": "OrbBak-dark",
   "description": "Dark Theme",
+  "icon": "images/Logo.png",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OrbnuMozat/OrbBak-dark"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "orbnu"
+  ],
   "categories": [
     "Themes"
   ],
