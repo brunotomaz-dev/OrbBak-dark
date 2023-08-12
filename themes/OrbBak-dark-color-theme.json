@@ -500,7 +500,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ffd900"
 			}
 		},
 		{
@@ -995,7 +995,7 @@
 				"keyword.control.at-rule.include"
 			],
 			"settings": {
-				"foreground": "#787860",
+				"foreground": "#ffd900",
 				"fontStyle": "italic bold"
 			}
 		},
