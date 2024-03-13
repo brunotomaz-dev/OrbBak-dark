@@ -264,10 +264,16 @@
 	"tokenColors": [
 		{
 			"name": "Comment",
-			"scope": ["comment, string.comment, string.quoted.docstring, string.quoted.docstring punctuation.definition.string.begin, string.quoted.docstring punctuation.definition.string.end",
+			"scope": [
+			"comment", 
+			"string.comment",
+			"string.quoted.docstring",
+			"string.quoted.docstring punctuation.definition.string.begin",
+			"string.quoted.docstring punctuation.definition.string.end",
 			"support.type.property-name.json.comments",
 			"comment.line.number-sign.ini",
-			"comment.line.number-sign.ignore"
+			"comment.line.number-sign.ignore",
+			"string.quoted.docstring.multi",
 		],
 			"settings": {
 				"foreground": "#31454e",
@@ -475,6 +481,7 @@
 			"scope": [
 				"invalid",
 				"invalid.illegal",
+				"meta.function.decorator meta.function-call.arguments"
 			],
 			"settings": {
 				"foreground": "#18abd8"
