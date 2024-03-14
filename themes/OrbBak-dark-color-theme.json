@@ -314,7 +314,6 @@
 				"punctuation.definition.string",
 				"meta.fstring.python punctuation.definition.string string.quoted",
 				"punctuation.definition.heading.markdown",
-				"source"
 			],
 			"settings": {
 				"foreground": "#928374",
@@ -402,7 +401,8 @@
 			"name": "Parameter",
 			"scope": [
 				"meta.member.access meta.function-call.arguments",
-				"meta.paragraph.markdown"
+				"meta.paragraph.markdown",
+				"source"
 			],
 			"settings": {
 				"foreground": "#b2ccd6"
