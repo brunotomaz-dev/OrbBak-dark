@@ -128,7 +128,6 @@
 		"tab.inactiveForeground": "#707a8c",
 		"tab.unfocusedActiveForeground": "#707a8c",
 		"tab.unfocusedInactiveForeground": "#707a8c",
-		"tab.hoverForeground": "#eec305",
 		// Breadcrumbs
 		"breadcrumb.background": "#1f2430",
 		"breadcrumb.foreground": "#707a8c",
