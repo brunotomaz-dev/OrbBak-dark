@@ -761,6 +761,7 @@
 			"scope": [
 				"meta.member.access meta.item-access",
 				"meta.member.access meta.attribute",
+				"support.type.primitive.ts",
 			],
 			"settings": {
 				"foreground": "#85dfc4",
@@ -917,7 +918,8 @@
 		{
 			"scope": [
 				"variable.parameter.function.language.special",
-				"variable.parameter"
+				"variable.parameter",
+				"variable.other.readwrite.alias.ts",
 			],
 			"settings": {
 				"foreground": "#f0c400"
@@ -935,7 +937,8 @@
 			"scope": [
 				"invalid",
 				"invalid.illegal",
-				"meta.function.decorator meta.function-call.arguments"
+				"meta.function.decorator meta.function-call.arguments",
+				"storage.modifier.ts",
 			],
 			"settings": {
 				"foreground": "#18abd8"
