@@ -258,6 +258,7 @@
 		"welcomePage.tileBackground": "#1f2430",
 		"welcomePage.progress.background": "#1a1f29",
 	},
+	// Semantic
 	"semanticTokenColors": {
 		"operatorOverload": "#e78a4e",
 		"memberOperatorOverload": "#e78a4e",
@@ -278,8 +279,10 @@
 		"function.decorator": "#89f08e",
 		"parameter": "#B2CCD6",
 		"property": "#cc96f0",
-		"variable": "#7a96a3",
-		"variable.readonly": "#696f8a",
+		"variable": {"foreground": "#F8E0E0", "fontStyle": "italic"},
+		"variable.local": {"foreground": "#5d5994", "fontStyle": ""},
+		"variable.declaration.readonly.local": {"foreground": "#696f8a", "fontStyle": ""},
+		"variable.readonly.local": {"foreground": "#505674", "fontStyle": "italic"},
 		"method": "#699fdd",
 		"builtinConstant": "#66ac6a",
 		"builtinConstant.readonly": {"fontStyle": "italic"},
@@ -290,6 +293,51 @@
 		"selfKeyword:rust": "#d3869b"
 	},
 	"tokenColors": [
+		{
+			"name": "Tag Class",
+			"scope": "support.class.component",
+			"settings": {
+				"foreground": "#ffef0a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Tag Name",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#0aefff",
+			}
+		},
+		{
+			"name": "Tag Attribute",
+			"scope": "entity.other.attribute-name",
+			"settings": {
+				"foreground": "#52a585",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Tag Punctuation",
+			"scope": "punctuation.definition.tag",
+			"settings": {
+				"foreground": "#ff780a",
+			}
+		},
+		{
+			"name": "Punctuation Optional",
+			"scope": "punctuation.accessor.optional",
+			"settings": {
+				"foreground": "#0affca",
+			}
+		},
+		{
+			"name": "Storage Async",
+			"scope": "storage.modifier.async",
+			"settings": {
+				"foreground": "#02e8f8",
+				"fontStyle": "italic bold"
+			}
+		},
 		{
 			"name": "Debug",
 			"scope": "keyword.other.debugger",
@@ -761,7 +809,7 @@
 			"scope": [
 				"meta.member.access meta.item-access",
 				"meta.member.access meta.attribute",
-				"support.type.primitive.ts",
+				"support.type.primitive",
 			],
 			"settings": {
 				"foreground": "#85dfc4",
@@ -794,6 +842,13 @@
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#f8ae1b"
+			}
+		},
+		{
+			"name": "Storage Type Arrow",
+			"scope": "storage.type.function.arrow",
+			"settings": {
+				"foreground": "#f789df"
 			}
 		},
 		{
@@ -853,6 +908,7 @@
 				"keyword.operator.new",
 				"keyword.operator.bitwise",
 				"punctuation.separator",
+				"punctuation.terminator",
 				"rainbow1",
 		],
 			"settings": {
@@ -919,10 +975,17 @@
 			"scope": [
 				"variable.parameter.function.language.special",
 				"variable.parameter",
-				"variable.other.readwrite.alias.ts",
 			],
 			"settings": {
 				"foreground": "#f0c400"
+			}
+		},
+		{
+			"scope": [
+				"variable.other.readwrite.alias",
+			],
+			"settings": {
+				"foreground": "#F8E0E0",
 			}
 		},
 		{
