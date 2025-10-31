@@ -302,6 +302,13 @@
 			}
 		},
 		{
+			"name": "Meta JSX Children",
+			"scope": "meta.jsx.children",
+			"settings": {
+				"foreground": "#bff8ec",
+			}
+		},
+		{
 			"name": "Tag Name",
 			"scope": "entity.name.tag",
 			"settings": {
