@@ -194,7 +194,7 @@
 		"editorBracketMatch.border": "#8a91994d",
 		"editorOverviewRuler.border": "#171b24",
 		"editorOverviewRuler.modifiedForeground": "#80bfff",
-		"editorOverviewRuler.addedForeground": "#87d96c",
+		"editorOverviewRuler.addedForeground": "#5f9c4a",
 		"editorOverviewRuler.deletedForeground": "#f27983",
 		"editorOverviewRuler.errorForeground": "#ff6666",
 		"editorOverviewRuler.warningForeground": "#ffcc66",
@@ -205,7 +205,7 @@
 		"editorError.foreground": "#ff6666",
 		"editorWarning.foreground": "#ffcc66",
 		"editorGutter.modifiedBackground": "#80bfffcc",
-		"editorGutter.addedBackground": "#87d96ccc",
+		"editorGutter.addedBackground": "#5fa149cc",
 		"editorGutter.deletedBackground": "#f27983cc",
 		"editorCodeLens.foreground": "#b8cfe680",
 		"editorSuggestWidget.background": "#1c212b",
@@ -828,6 +828,14 @@
 			"scope": "meta.function-call.generic",
 			"settings": {
 				"foreground": "#3FE41E"
+			}
+		},
+		{
+			"name": "Language Constant",
+			"scope": ["constant.language.boolean", "constant.language"],
+			"settings": {
+				"foreground": "#3cb624",
+				"fontStyle": "italic"
 			}
 		},
 		{
