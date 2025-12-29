@@ -65,13 +65,13 @@
 		"titleBar.inactiveForeground": "#707a8c",
 		"menu.background": "#191d26",
 		// Buttons
-		"button.background": "#c9a04def",
-		"button.foreground": "#3a2704",
-		"button.hoverBackground": "#f7b32c",
+		"button.background": "#ffcc66",
+		"button.foreground": "#805500",
+		"button.hoverBackground": "#fac761",
 		"textLink.foreground": "#ffcc66",
-		"textLink.activeForeground": "#cfa654",
+		"textLink.activeForeground": "#ffcc66",
 		"button.secondaryBackground": "#707a8c33",
-		"button.secondaryForeground": "#cccac293",
+		"button.secondaryForeground": "#cccac2",
 		"button.secondaryHoverBackground": "#707a8c80",
 		// Inputs
 		"input.background": "#242936",
@@ -120,12 +120,12 @@
 		"editorGroupHeader.tabsBackground": "#1f2430",
 		"editorGroupHeader.tabsBorder": "#1f2430",
 		"tab.activeBackground": "#1f2430",
-		"tab.activeForeground": "#99adafe3",
+		"tab.activeForeground": "#cccac2",
 		"tab.border": "#1f2430",
-		"tab.activeBorder": "#ffaa0165",
+		"tab.activeBorder": "#ffcc66",
 		"tab.unfocusedActiveBorder": "#707a8c",
 		"tab.inactiveBackground": "#1f2430",
-		"tab.inactiveForeground": "#707a8ca8",
+		"tab.inactiveForeground": "#707a8c",
 		"tab.unfocusedActiveForeground": "#707a8c",
 		"tab.unfocusedInactiveForeground": "#707a8c",
 		// Breadcrumbs
@@ -151,7 +151,7 @@
 		"gitDecoration.conflictingResourceForeground": "#6c6cc4",
 		"gitDecoration.deletedResourceForeground": "#f27983b3",
 		"gitDecoration.ignoredResourceForeground": "#707a8c80",
-		"gitDecoration.modifiedResourceForeground": "#af7e3d",
+		"gitDecoration.modifiedResourceForeground": "#e2c08d",
 		"gitDecoration.untrackedResourceForeground": "#73c991",
 		"gitDecoration.submoduleResourceForeground": "#dfbfffb3",
 		// Minimap
@@ -167,7 +167,7 @@
 		"editor.foreground": "#cccac2",
 		"editorLineNumber.foreground": "#8a919966",
 		"editorLineNumber.activeForeground": "#8a9199cc",
-		"editorCursor.foreground": "#66ff73",
+		"editorCursor.foreground": "#ffcc66",
 		"editor.selectionBackground": "#40a0ff1f",
 		"editor.inactiveSelectionBackground": "#b8cadb21",
 		"editorWhitespace.foreground": "#8a919966",
@@ -260,34 +260,34 @@
 	},
 	// Semantic
 	"semanticTokenColors": {
-		"operatorOverload": "#e78b4e65",
-		"memberOperatorOverload": "#e78b4e80",
-		"class": {"foreground": "#90d6ff9f", "italic": true},
-		"variable.defaultLibrary": "#d3869ab6",
-		"property.defaultLibrary": "#d3869ab7",
-		"interface": "#b7e61083",
-		"enum": "#d3869a94",
-		"enumMember": "#7daea398",
-		"namespace": "#d3869a9f",
-		"class.builtin": {"foreground": "#00fdfd9d", "italic": true},
-		"class.typeHint": {"foreground": "#0084ff8f", "italic": true},
+		"operatorOverload": "#e78a4e",
+		"memberOperatorOverload": "#e78a4e",
+		"class": {"foreground": "#90d7ff", "italic": true},
+		"variable.defaultLibrary": "#d3869b",
+		"property.defaultLibrary": "#d3869b",
+		"interface": "#89b482",
+		"enum": "#d3869b",
+		"enumMember": "#7daea3",
+		"namespace": "#d3869b",
+		"class.builtin": {"foreground": "#00fdfd", "italic": true},
+		"class.typeHint": {"foreground": "#0084ff", "italic": true},
 		"enum:python":{"foreground": "#0282fa5e", "italic": true},
 		"enumMember:python": "#1bb48ede",
 		"intrinsic:python": "#d3869b",
 		"module:python": "#ffa69e",
-		"function": "#2bff003a",
-		"function.decorator": "#89f08e88",
-		"parameter": "#b2ccd6cc",
-		"property": "#cc96f07e",
-		"variable": {"foreground": "#f8e0e0", "fontStyle": "italic"},
-		"variable.local": {"foreground": "#5d59947c", "fontStyle": ""},
-		"variable.declaration.readonly.local": {"foreground": "#696f8aa4", "fontStyle": ""},
-		"variable.readonly.local": {"foreground": "#505674c4", "fontStyle": "italic"},
-		"method": "#699fdd65",
-		"builtinConstant": "#66ac6ac5",
+		"function": "#3fe41e",
+		"function.decorator": "#89f08e",
+		"parameter": "#B2CCD6",
+		"property": "#cc96f0",
+		"variable": {"foreground": "#F8E0E0", "fontStyle": "italic"},
+		"variable.local": {"foreground": "#5d5994", "fontStyle": ""},
+		"variable.declaration.readonly.local": {"foreground": "#696f8a", "fontStyle": ""},
+		"variable.readonly.local": {"foreground": "#505674", "fontStyle": "italic"},
+		"method": "#699fdd",
+		"builtinConstant": "#66ac6a",
 		"builtinConstant.readonly": {"fontStyle": "italic"},
-		"operator": "#c8ee70b6",
-		"selfParameter": {"foreground":"#fd4daead", "italic": true},
+		"operator": "#c8ee70",
+		"selfParameter": {"foreground":"#fd4dae", "italic": true},
 		"*.declaration:python": {"fontStyle": "italic"},
 		"macro:rust": "#89b482",
 		"selfKeyword:rust": "#d3869b"
@@ -297,7 +297,7 @@
 			"name": "Tag Class",
 			"scope": "support.class.component",
 			"settings": {
-				"foreground": "#ffef0ad8",
+				"foreground": "#ffef0a",
 				"fontStyle": "italic"
 			}
 		},
@@ -305,14 +305,14 @@
 			"name": "Meta JSX Children",
 			"scope": "meta.jsx.children",
 			"settings": {
-				"foreground": "#bff8ecee",
+				"foreground": "#bff8ec",
 			}
 		},
 		{
 			"name": "Tag Name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"foreground": "#0aefffc9",
+				"foreground": "#0aefff",
 			}
 		},
 		{
@@ -834,7 +834,7 @@
 			"name": "Language Constant",
 			"scope": ["constant.language.boolean", "constant.language"],
 			"settings": {
-				"foreground": "#3cb624af",
+				"foreground": "#3cb624",
 				"fontStyle": "italic"
 			}
 		},
@@ -856,7 +856,7 @@
 			"name": "Storage Type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#e99b00de"
+				"foreground": "#f8ae1b"
 			}
 		},
 		{
@@ -874,7 +874,7 @@
 				"entity.name.section.markdown"
 			],
 			"settings": {
-				"foreground": "#f7d591cc"
+				"foreground": "#f7d591"
 			}
 		},
 		{
@@ -927,14 +927,14 @@
 				"rainbow1",
 		],
 			"settings": {
-				"foreground": "#ff79c5b7"
+				"foreground": "#FF79C6"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#f75a00b2"
+				"foreground": "#d16f37"
 			}
 		},
 		// Add mas pode apagar
@@ -945,7 +945,7 @@
 				"keyword",
 			],
 			"settings": {
-				"foreground": "#d86c01b7"
+				"foreground": "#D87818"
 			}
 		},
 		{
@@ -1000,7 +1000,7 @@
 				"variable.other.readwrite.alias",
 			],
 			"settings": {
-				"foreground": "#f8e0e0ad",
+				"foreground": "#F8E0E0",
 			}
 		},
 		{
@@ -1008,7 +1008,7 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#d400ffb6"
+				"foreground": "#d400ff"
 			}
 		},
 		{
