@@ -792,7 +792,7 @@
 			"name": "JSON String Comment",
 			"scope": [
 				"support.type.property-name.json.comments",
-				"meta.structure.array.json",
+				"meta.structure.array.json string.quoted.double.json",
 			],
 			"settings": {
 				"foreground": "#537686",
@@ -801,19 +801,19 @@
 		{
 			"name": "JSON Object Key",
 			"scope": [
-				"meta.structure.dictionary.json",
+				"meta.structure.dictionary.json string.json",
 			],
 			"settings": {
-				"foreground": "#4ba067",
+				"foreground": "#04802d",
 			}
 		},
 		{
 			"name": "JSON Object Value",
 			"scope": [
-				"meta.structure.dictionary.value.json",
+				"meta.structure.dictionary.value.json string.quoted.double.json",
 			],
 			"settings": {
-				"foreground": "#4b8fa0",
+				"foreground": "#54aaa3",
 			}
 		},
 		{
@@ -992,7 +992,7 @@
 		{
 			"scope": [
 				// "string",
-				// "string.quoted.double.json",
+				"string.quoted.double.json",
 				"variable.other.constant.js",
 				"variable.other.readwrite.js",
 				"variable.other.readwrite.ts",
