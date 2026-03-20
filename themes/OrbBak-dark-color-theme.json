@@ -790,9 +790,30 @@
 		},
 		{
 			"name": "JSON String Comment",
-			"scope": "support.type.property-name.json.comments",
+			"scope": [
+				"support.type.property-name.json.comments",
+				"meta.structure.array.json",
+			],
 			"settings": {
 				"foreground": "#537686",
+			}
+		},
+		{
+			"name": "JSON Object Key",
+			"scope": [
+				"meta.structure.dictionary.json",
+			],
+			"settings": {
+				"foreground": "#4ba067",
+			}
+		},
+		{
+			"name": "JSON Object Value",
+			"scope": [
+				"meta.structure.dictionary.value.json",
+			],
+			"settings": {
+				"foreground": "#4b8fa0",
 			}
 		},
 		{
