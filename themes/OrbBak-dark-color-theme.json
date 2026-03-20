@@ -991,7 +991,7 @@
 		},
 		{
 			"scope": [
-				"string",
+				// "string",
 				"string.quoted.double.json",
 				"variable.other.constant.js",
 				"variable.other.readwrite.js",
