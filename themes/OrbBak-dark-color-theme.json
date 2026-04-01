@@ -804,7 +804,8 @@
 				"meta.structure.dictionary.json string.json",
 			],
 			"settings": {
-				"foreground": "#04802d",
+				"foreground": "#466a7a",
+				"fontStyle": "italic"
 			}
 		},
 		{
