@@ -19,7 +19,7 @@
 		"activityBar.border": "#1f2430",
 		"activityBar.activeBorder": "#ffcc66",
 		// Side Bar
-		"sideBar.background": "#1f2430",
+		"sideBar.background": "#1c2230",
 		"sideBarSectionHeader.background": "#1f2430",
 		"sideBarSectionHeader.foreground": "#707a8c",
 		"sideBarSectionHeader.border": "#1f2430",
@@ -88,7 +88,7 @@
 		"inputValidation.warningBackground": "#1f2430",
 		"inputValidation.warningBorder": "#ffd173",
 		// Panel
-		"panel.background": "#1f2430",
+		"panel.background": "#1c2230",
 		"panel.border": "#171b24",
 		"panelTitle.activeBorder": "#ffcc66",
 		"panelTitle.activeForeground": "#cccac2",
@@ -96,7 +96,7 @@
 		"badge.background": "#ff000070",
 		"badge.foreground": "#cccac2",
 		// Terminal
-		"terminal.background": "#1f2430",
+		"terminal.background": "#1c2230",
 		"terminal.foreground": "#cccac2",
 		"terminal.ansiBlack": "#171b24",
 		"terminal.ansiRed": "#ed8274",
